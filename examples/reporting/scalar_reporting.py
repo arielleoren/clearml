@@ -26,6 +26,7 @@ def main():
     task = Task.init(project_name="examples", task_name="scalar reporting")
 
     print('reporting scalar graphs')
+    print("hello")
 
     # Get the task logger,
     # You can also call Task.current_task().get_logger() from anywhere in your code.
